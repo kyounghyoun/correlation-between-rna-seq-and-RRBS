@@ -2,11 +2,12 @@ Identification of DNA methylated CpG islands associated with Gene Silence in a O
 =====================
 
 **Scripts Information**
-*Transcriptome.quantification*|
-|step01.2_RNA-seq.preprocessing.sh
-|step02.2_RNA-seq.quantification.sh
-|Tuxedo.pipe.py
-|complexHeatmap.R
+--------------
+*Transcriptome.quantification*| 
+ |step01.2_RNA-seq.preprocessing.sh
+ |step02.2_RNA-seq.quantification.sh
+ |Tuxedo.pipe.py
+ |complexHeatmap.R
 
 
 **Requirement**
