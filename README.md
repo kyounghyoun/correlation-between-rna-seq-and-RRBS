@@ -33,13 +33,6 @@ Identification of DNA methylated CpG islands associated with Gene Silence in a O
 - step04.Pearson_correlation.sh
 - pearson.correlation.test.py
 
-**Install**
---------------
-```
-git clone https://github.com/wjlim/TuxedoProtocolPIPE.git
-export PATH=$PWD/TuxedoProtocolPIPE:$PATH (bash shell)
-```
-
 **Usage**
 --------------
 ```
