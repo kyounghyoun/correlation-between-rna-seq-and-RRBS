@@ -1,7 +1,7 @@
 Identification of DNA methylated CpG islands associated with Gene Silence in a Ogye Chicken Adult Body Tissues by RNA-Seq and Reduced Representation Bisulfite Sequencing Data
 =====================
 
-**Requirement**
+ **Requirement**
 --------------
 - python
 - **tophat**
@@ -12,28 +12,28 @@ Identification of DNA methylated CpG islands associated with Gene Silence in a O
 - **gawk**
 
 
-**Scripts Information**
+ **Scripts Information**
 --------------
-*Transcriptome.quantification*
+ *Transcriptome.quantification*
 --------------
 - step01.2_RNA-seq.preprocessing.sh
 - step02.2_RNA-seq.quantification.sh
 - Tuxedo.pipe.py
 - complexHeatmap.R
-*Differential.Exon.Usage*
+ *Differential.Exon.Usage*
 --------------
 - step03.Differential.Exon.Usages.sh
 - OmicCircos.R
-*Methylation.quantification*
+ *Methylation.quantification*
 --------------
 - step01.1_RRBS.preprocessing.sh
 - step02.1_RRBS.quantification.sh
-*correlation.test*
+ *correlation.test*
 --------------
 - step04.Pearson_correlation.sh
 - pearson.correlation.test.py
 
-**Usage**
+ **Usage**
 --------------
 ```
 **Usage: Tuxedo.ScriptCommander.py -f refence_fasta -m mRNA_fasta -a annotation(gff,gtf) -p total_available_CPUs -i input_info1(comma sep) -i input_info2(comma sep) ...**
