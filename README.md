@@ -35,20 +35,24 @@ Correlation between RNA-seq and RRBS
  **Description**
 --------------
 ```
-We publish the scripts used in the above article for the reader to use
-You can not excute all of our scripts and if you want to run the program, 
-use Bioprojects PRJNA412408 data.
-However,the scripts that can do Pearson's correlation tests include examples of exercises.
+
+Publication : Identification of DNA-methylated CpG islands associated with Gene Silence 
+in Adult Body Tissues of Ogye Chicken using RNA-seq and Reduced Representation Bisulfite Sequencing (Under review)
+
+The scripts used in the above article for RNA-seq and RRBS analysis 
+The dataset usesd in this article can be accessible at NCBI SRA Bioprojects PRJNA412404 (RNA) and PRJNA412432 (RRBS). 
+The complete script may run by using the exact dataset used in the study. 
+However, the scripts include examples of exercies on Pearson's correlation tests. 
 
 - step01
 These bash scripts are divided into parts for quality control of raw data 
 and parts for creating reference sequence indexes.
 - step02
-These bash scripts contains a python script 
+These bash scripts contains python script 
 and Bismark excution codes to quantify NGS libraries.
 - step03
-There are a rMATS excution script and a R script to plot a circos
+There are a rMATS excution script and a R script to viualize circosplot.
 - step04
-This directory contains 2 example files to test.
+This directory contains 2 example files to run Pearson's correlation test.
 
 ```
